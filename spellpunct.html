@@ -1,0 +1,29 @@
+<!-- This is the html file for spell and punct fixer-->
+<!-- Link to css file and js file using defer -->
+<link rel='stylesheet' type='text/css' href="spellpunct.css">
+<script src="spellpunct.js" defer="defer"></script>
+
+
+<head> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    
+      <section>
+          <h2 class='title'>Spell Check  / Punctuation Fixer</h2>
+          <h5 class='subtitle'>Enter a sentence. Correct any misspelled words before pressing enter.</h5>
+      </section>
+    
+      
+    <!---input code is here   !--->
+      <div class="forms" id="main"> 
+        <textarea id="inputField" rows= "3" columns="100" form="usrentry" spellcheck="true">Enter text here...</textarea>
+            <br>
+            <input type="submit" id="Enter" value="Enter" > 
+            <input type="button" id="Delete" value="Clear">
+      </div>
+    
+    <div class="Output" id="Output" > <i>Updated Text:</i> <br>
+      </div>
+    
+        
+       

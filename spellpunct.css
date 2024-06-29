@@ -1,0 +1,51 @@
+header h2 {
+    max-width:800px;
+    width:100%;
+    color:black;
+  }
+  
+  body {
+    font-family:helvetica, serif;
+    background:#778899;
+    color: black;
+    text-align: center;
+    padding:10px;
+    background-image: linear-gradient(to right, #778899, #887799);
+  }
+  
+  
+  #inputField {
+    font-family:helvetica, serif;
+    font-size:1.10rem;
+    font-weight:100;
+    border-radius:0.35rem;
+    border-width:2px;
+    background-color:#F9F6EE;
+    margin: 6px;
+    border-color:black;
+    width:50%;
+    color:#004242
+  }
+  
+  #Enter {
+    margin-top:3px;
+    margin-bottom:30px;
+    border-color:black;
+  }
+  
+  #Delete {
+    margin-top:3px;
+    margin-bottom:30px;
+    border-color:black;
+  }
+  
+  #Output {
+    font-size:1.10rem;
+    font-family:helvetica, serif;
+    margin:20px;
+    border:5px;
+    background-image: linear-gradient(to right, #F9F6EE, #979aaa);
+    border-radius:0.30rem;
+    border-width:2px;
+    margin:6px;
+  }
